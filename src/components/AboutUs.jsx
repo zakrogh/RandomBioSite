@@ -4,6 +4,11 @@ import dog from '../assets/images/1.png';
 function AboutUs(){
   return (
     <div>
+      <style global jsx>{`
+        .pics{
+          width: 500px;
+        }
+      `}</style>
       <div className="container">
         <p>ABOUT US PAGE</p>
         <hr/>

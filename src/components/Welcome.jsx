@@ -3,7 +3,9 @@ import React from 'react';
 function Welcome(){
   return (
     <div>
-      <p>THIS IS A WELCOME PAGE</p>
+      <div className="container">
+        <p>THIS IS A WELCOME PAGE</p>
+      </div>
     </div>
   );
 }
